@@ -18,5 +18,7 @@ class Solution:
 # the second solution :
 # return Counter(s) == Counter(t)
 #better in time and space complexity
+#third solution:
 #We can sorted before then use (==)
 #the complexity depends on the sorting algorithm time and space complexity
+#return sorted(s) == sorted(t)
