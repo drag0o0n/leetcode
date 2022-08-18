@@ -4,7 +4,7 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s) != len(t):
-            return false
+            return False
         countS, countT ={},{}
         for i in range(len(s)):
             countS[s[i]] = 1 +countS.get(s[i],0) #counting how many times each char exist
